@@ -11,7 +11,12 @@ public class TouchManager : MonoBehaviour
 
     private InputAction firstFingerTouch;
     private InputAction secondFingerTouch;
+    private InputAction xRMove;
     private ActionsManager actionsManager;
+
+    [SerializeField] private float movementSpeed = 3f;
+
+    private Vector2 joystickInput;
 
     public GameObject canvas;
 
@@ -21,6 +26,8 @@ public class TouchManager : MonoBehaviour
         actionsManager = GetComponent<ActionsManager>();
         firstFingerTouch = playerInput.actions.FindAction("FirstFingerTouch");
         secondFingerTouch = playerInput.actions.FindAction("SecondFingerTouch");
+        xRMove = playerInput.actions.FindAction("XRMove");
+        canvas.SetActive(false);
     }
 
     private void OnEnable()
@@ -28,17 +35,35 @@ public class TouchManager : MonoBehaviour
         firstFingerTouch.performed += TouchPressedSingle;
     }
 
+    private void Update()
+    {
+        joystickInput = xRMove.ReadValue<Vector2>();
+        Debug.Log(joystickInput);
+        Vector3 movement = new Vector3(joystickInput.x, 0f, joystickInput.y);
+        Vector3 newPosition = transform.position + (movement * movementSpeed * Time.deltaTime);
+        transform.position = newPosition;
+    }
+
     private void OnDisable()
     {
         firstFingerTouch.performed -= TouchPressedSingle;
+    }
+
+    private void OnJoystickMove(InputAction.CallbackContext context)
+    {
+        joystickInput = context.ReadValue<Vector2>();
+        Debug.Log(joystickInput);
+        Vector3 movement = new Vector3(joystickInput.x, 0f, joystickInput.y);
+        Vector3 newPosition = transform.position + (movement * movementSpeed * Time.deltaTime);
+        transform.position = newPosition;
     }
 
     private void TouchPressedSingle(InputAction.CallbackContext context)
     {
         TouchState touch = context.ReadValue<TouchState>();
         bool isPo = IsPointerOverUIObject(touch.position);
-        Debug.Log(isPo);
-        if (isPo) return;
+        //Debug.Log(isPo);
+        //if (isPo) return;
         if(touch.phase.Equals(UnityEngine.InputSystem.TouchPhase.Began))
         {
             actionsManager.InstantiatePortal(touch.position);
@@ -50,9 +75,9 @@ public class TouchManager : MonoBehaviour
         else if(touch.phase.Equals(UnityEngine.InputSystem.TouchPhase.Ended))
         {
             actionsManager.LockPortal();
-            canvas.SetActive(true);
+            if(actionsManager.placedPortal) canvas.SetActive(true);
         }
-        Debug.Log(touch);
+        //Debug.Log(touch);
     }
 
     private bool IsPointerOverUIObject(Vector3 position)

@@ -1,5 +1,5 @@
 {
-    "name": "InputAction",
+    "name": "TouchActions",
     "maps": [
         {
             "name": "Player",
@@ -791,6 +791,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "XRMove",
+                    "type": "Value",
+                    "id": "ae64f73b-164a-4791-a2ed-b996404fade1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -824,6 +833,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "SecondFingerContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c1fe4a5-0b65-4cf4-a0b2-403325780aa7",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XRMove",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

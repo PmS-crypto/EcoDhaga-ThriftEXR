@@ -12,7 +12,7 @@ public class ActionsManager: MonoBehaviour
     [SerializeField]
     private GameObject prefab;
 
-    private Transform placedPortal = null;
+    public Transform placedPortal = null;
     private bool isPortalLocked = false; 
 
 
@@ -64,6 +64,9 @@ public class ActionsManager: MonoBehaviour
     public void NextClothing()
     {
         Debug.Log("next clothing");
+        if (!placedPortal) return;
+        List<string> clothes = new List<string> { "hello", "hello", "hello" };
+        placedPortal.GetComponent<ClothSpawner>().SetClothesOnSpawners(clothes);
     }
 
 }

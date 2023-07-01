@@ -815,6 +815,15 @@ namespace UnityEngine.InputSystem
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""XRMove"",
+                    ""type"": ""Value"",
+                    ""id"": ""ae64f73b-164a-4791-a2ed-b996404fade1"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -848,6 +857,17 @@ namespace UnityEngine.InputSystem
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""SecondFingerContact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7c1fe4a5-0b65-4cf4-a0b2-403325780aa7"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""XRMove"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -939,6 +959,7 @@ namespace UnityEngine.InputSystem
             m_PortalActions_FirstFingerTouch = m_PortalActions.FindAction("FirstFingerTouch", throwIfNotFound: true);
             m_PortalActions_SecondFingerTouch = m_PortalActions.FindAction("SecondFingerTouch", throwIfNotFound: true);
             m_PortalActions_SecondFingerContact = m_PortalActions.FindAction("SecondFingerContact", throwIfNotFound: true);
+            m_PortalActions_XRMove = m_PortalActions.FindAction("XRMove", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -1183,6 +1204,7 @@ namespace UnityEngine.InputSystem
         private readonly InputAction m_PortalActions_FirstFingerTouch;
         private readonly InputAction m_PortalActions_SecondFingerTouch;
         private readonly InputAction m_PortalActions_SecondFingerContact;
+        private readonly InputAction m_PortalActions_XRMove;
         public struct PortalActionsActions
         {
             private @TouchActions m_Wrapper;
@@ -1190,6 +1212,7 @@ namespace UnityEngine.InputSystem
             public InputAction @FirstFingerTouch => m_Wrapper.m_PortalActions_FirstFingerTouch;
             public InputAction @SecondFingerTouch => m_Wrapper.m_PortalActions_SecondFingerTouch;
             public InputAction @SecondFingerContact => m_Wrapper.m_PortalActions_SecondFingerContact;
+            public InputAction @XRMove => m_Wrapper.m_PortalActions_XRMove;
             public InputActionMap Get() { return m_Wrapper.m_PortalActions; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -1208,6 +1231,9 @@ namespace UnityEngine.InputSystem
                 @SecondFingerContact.started += instance.OnSecondFingerContact;
                 @SecondFingerContact.performed += instance.OnSecondFingerContact;
                 @SecondFingerContact.canceled += instance.OnSecondFingerContact;
+                @XRMove.started += instance.OnXRMove;
+                @XRMove.performed += instance.OnXRMove;
+                @XRMove.canceled += instance.OnXRMove;
             }
 
             private void UnregisterCallbacks(IPortalActionsActions instance)
@@ -1221,6 +1247,9 @@ namespace UnityEngine.InputSystem
                 @SecondFingerContact.started -= instance.OnSecondFingerContact;
                 @SecondFingerContact.performed -= instance.OnSecondFingerContact;
                 @SecondFingerContact.canceled -= instance.OnSecondFingerContact;
+                @XRMove.started -= instance.OnXRMove;
+                @XRMove.performed -= instance.OnXRMove;
+                @XRMove.canceled -= instance.OnXRMove;
             }
 
             public void RemoveCallbacks(IPortalActionsActions instance)
@@ -1307,6 +1336,7 @@ namespace UnityEngine.InputSystem
             void OnFirstFingerTouch(InputAction.CallbackContext context);
             void OnSecondFingerTouch(InputAction.CallbackContext context);
             void OnSecondFingerContact(InputAction.CallbackContext context);
+            void OnXRMove(InputAction.CallbackContext context);
         }
     }
 }
