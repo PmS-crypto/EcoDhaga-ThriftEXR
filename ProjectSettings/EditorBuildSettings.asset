@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: d270420db0618412d94cf5c869433aed
+  - enabled: 1
     path: Assets/Scenes/RaycastPortal.unity
     guid: 05af5938e4a347f4494d93f623d61fad
+  - enabled: 1
+    path: Assets/Scenes/CustomSize.unity
+    guid: c055f883f942f414c9e8f63fb5ce6596
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a0a9c39c9e8847d42853c64360059b84, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6167b37527710f34382236ff405bfb53, type: 2}
