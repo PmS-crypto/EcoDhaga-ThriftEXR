@@ -73,7 +73,7 @@ public class customSizeController : MonoBehaviour
     }
 
     public void Explore(){
-        SceneManager.LoadScene("RaycastPortal");
+        SceneManager.LoadScene("CopyRaycastPortal");
     }
 
     public void getInput(){
