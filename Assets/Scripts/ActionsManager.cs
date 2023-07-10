@@ -65,8 +65,15 @@ public class ActionsManager: MonoBehaviour
     {
         Debug.Log("next clothing");
         if (!placedPortal) return;
-        List<string> clothes = new List<string> { "hello", "hello", "hello" };
-        placedPortal.GetComponent<ClothSpawner>().SetClothesOnSpawners(clothes);
+        placedPortal.GetComponent<ClothSpawner>().SpawnNextCloth();
     }
+
+    public void PrevClothing()
+    {
+        Debug.Log("prev clothing");
+        if (!placedPortal) return;
+        placedPortal.GetComponent<ClothSpawner>().SpawnPrevCloth();
+    }
+
 
 }

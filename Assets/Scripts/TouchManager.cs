@@ -14,9 +14,11 @@ public class TouchManager : MonoBehaviour
     private InputAction xRMove;
     private ActionsManager actionsManager;
 
-    [SerializeField] private float movementSpeed = 3f;
+    [SerializeField] private VirtualJoystick joystickData;
 
-    private Vector2 joystickInput;
+    [SerializeField] private float movementSpeed = 1.5f;
+
+    private Vector3 joystickInput;
 
     public GameObject canvas;
 
@@ -32,16 +34,19 @@ public class TouchManager : MonoBehaviour
 
     private void OnEnable()
     {
+        //xRMove.Enable();
+        //xRMove.performed += OnJoystickMove;
+        // xRMove.canceled += OnJoystickMove;
         firstFingerTouch.performed += TouchPressedSingle;
     }
 
     private void Update()
     {
-        joystickInput = xRMove.ReadValue<Vector2>();
-        Debug.Log(joystickInput);
-        Vector3 movement = new Vector3(joystickInput.x, 0f, joystickInput.y);
+        joystickInput = joystickData.InputDirection;
+        Vector3 movement = new Vector3(joystickInput.x, 0f, joystickInput.z);
         Vector3 newPosition = transform.position + (movement * movementSpeed * Time.deltaTime);
         transform.position = newPosition;
+        Debug.Log(joystickInput);
     }
 
     private void OnDisable()
@@ -51,8 +56,9 @@ public class TouchManager : MonoBehaviour
 
     private void OnJoystickMove(InputAction.CallbackContext context)
     {
+        Debug.Log(context);
         joystickInput = context.ReadValue<Vector2>();
-        Debug.Log(joystickInput);
+        //Debug.Log(joystickInput);
         Vector3 movement = new Vector3(joystickInput.x, 0f, joystickInput.y);
         Vector3 newPosition = transform.position + (movement * movementSpeed * Time.deltaTime);
         transform.position = newPosition;

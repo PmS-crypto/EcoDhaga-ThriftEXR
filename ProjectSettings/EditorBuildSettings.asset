@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: d270420db0618412d94cf5c869433aed
-  - enabled: 0
-    path: Assets/Scenes/RaycastPortal.unity
-    guid: 05af5938e4a347f4494d93f623d61fad
   - enabled: 1
     path: Assets/Scenes/CustomSize.unity
     guid: c055f883f942f414c9e8f63fb5ce6596
   - enabled: 1
+    path: Assets/Scenes/RaycastPortal.unity
+    guid: 05af5938e4a347f4494d93f623d61fad
+  - enabled: 0
     path: Assets/Scenes/CopyRaycastPortal.unity
     guid: c5a2c681f0f9e46fab33e6c652454aeb
   m_configObjects:

@@ -1,0 +1,147 @@
+{
+  "clothDataArray": [
+    {
+      "id": 1,
+      "size": "XL",
+      "brand": "Edc by Esprit",
+      "material": "Viscose",
+      "color": "Oxford Blue",
+      "condition": "Rarely Worn",
+      "price": 699,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/edc-by-espirt-oxford-blue-deep-v-neck-dress-xl"
+    },
+    {
+      "id": 2,
+      "size": "S",
+      "brand": "Coast",
+      "material": "Unknown",
+      "color": "Unknown",
+      "condition": "Unknown",
+      "price": 1299,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/coast-pleated-v-neck-dress-with-shiny-appearance-s"
+    },
+    {
+      "id": 3,
+      "size": "XL",
+      "brand": "STILO",
+      "material": "Polyester",
+      "color": "Coral Pink",
+      "condition": "Rarely Worn",
+      "price": 649,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/fit-and-flare-velvet-feel-and-piping-detail-xl"
+    },
+    {
+      "id": 4,
+      "size": "S",
+      "brand": "TopShop",
+      "material": "Polyester",
+      "color": "Parrot Green",
+      "condition": "Rarely Worn",
+      "price": 999,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/parrot-green-a-line-structured-dress-s"
+    },
+    {
+      "id": 5,
+      "size": "M",
+      "brand": "Stalk Buy Love",
+      "material": "Polyester",
+      "color": "White with Black",
+      "condition": "Rarely Worn",
+      "price": 549,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/stalk-buy-love-white-black-colour-block-dress-m"
+    },
+    {
+      "id": 6,
+      "size": "L",
+      "brand": "YUMI",
+      "material": "Polyester + Cotton",
+      "color": "Black with contrast piping",
+      "condition": "Brand New",
+      "price": 1299,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/babydoll-black-dress-with-contrast-piping-and-bows-uk-14"
+    },
+    {
+      "id": 7,
+      "size": "L",
+      "brand": "Unknown",
+      "material": "Polyester",
+      "color": "Black",
+      "condition": "Rarely Worn",
+      "price": 699,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/black-long-shirt-blouse-with-pocket-belt-loop"
+    },
+    {
+      "id": 8,
+      "size": "XXL",
+      "brand": "GAP",
+      "material": "Wool",
+      "color": "Red with Navy Blue",
+      "condition": "Rarely Worn",
+      "price": 999,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/gap-red-black-striped-dress-xxl"
+    },
+    {
+      "id": 9,
+      "size": "XL",
+      "brand": "Tailored",
+      "material": "Cotton",
+      "color": "Olive Green",
+      "condition": "Pre-Loved with Alteration Disclosure",
+      "price": 449,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/tailored-olive-straight-cut-cotton-pants-xl"
+    },
+    {
+      "id": 10,
+      "size": "L",
+      "brand": "VAN HEUSEN WOMAN",
+      "material": "Rayon",
+      "color": "Black",
+      "condition": "Pre-Loved",
+      "price": 899,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/van-heusen-woman-formal-pants-with-stripes-l"
+    },
+    {
+      "id": 11,
+      "size": "M",
+      "brand": "Code",
+      "material": "Cotton",
+      "color": "Burgundy",
+      "condition": "Rarely Worn",
+      "price": 749,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/code-burgundy-high-waist-belt-loop-bottom-m"
+    },
+    {
+      "id": 12,
+      "size": "XXL",
+      "brand": "Talbots",
+      "material": "Denim",
+      "color": "Denim Grey",
+      "condition": "Rarely Worn",
+      "price": 799,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/talbots-grey-denim-full-straight-bottom-xxl"
+    },
+    {
+      "id": 13,
+      "size": "S",
+      "brand": "Bang Bang Jean",
+      "material": "Denim",
+      "color": "Black",
+      "condition": "Rarely Worn",
+      "price": 499,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/bang-bang-jeans-black-shorts-s"
+    }
+  ]
+}
