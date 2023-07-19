@@ -2,39 +2,6 @@
   "clothDataArray": [
     {
       "id": 1,
-      "size": "XL",
-      "brand": "Edc by Esprit",
-      "material": "Viscose",
-      "color": "Oxford Blue",
-      "condition": "Rarely Worn",
-      "price": 699,
-      "type": "top",
-      "link": "https://www.ecodhaga.com/product-page/edc-by-espirt-oxford-blue-deep-v-neck-dress-xl"
-    },
-    {
-      "id": 2,
-      "size": "S",
-      "brand": "Coast",
-      "material": "Unknown",
-      "color": "Unknown",
-      "condition": "Unknown",
-      "price": 1299,
-      "type": "top",
-      "link": "https://www.ecodhaga.com/product-page/coast-pleated-v-neck-dress-with-shiny-appearance-s"
-    },
-    {
-      "id": 3,
-      "size": "XL",
-      "brand": "STILO",
-      "material": "Polyester",
-      "color": "Coral Pink",
-      "condition": "Rarely Worn",
-      "price": 649,
-      "type": "top",
-      "link": "https://www.ecodhaga.com/product-page/fit-and-flare-velvet-feel-and-piping-detail-xl"
-    },
-    {
-      "id": 4,
       "size": "S",
       "brand": "TopShop",
       "material": "Polyester",
@@ -45,7 +12,18 @@
       "link": "https://www.ecodhaga.com/product-page/parrot-green-a-line-structured-dress-s"
     },
     {
-      "id": 5,
+      "id": 2,
+      "size": "M",
+      "brand": "The Vance",
+      "material": "Polyester",
+      "color": "Black and Off White",
+      "condition": "Rarely Worn",
+      "price": 699,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/the-vance-full-sleeve-dress-m"
+    },
+    {
+      "id": 3,
       "size": "M",
       "brand": "Stalk Buy Love",
       "material": "Polyester",
@@ -56,7 +34,18 @@
       "link": "https://www.ecodhaga.com/product-page/stalk-buy-love-white-black-colour-block-dress-m"
     },
     {
-      "id": 6,
+      "id": 4,
+      "size": "L",
+      "brand": "Bossini",
+      "material": "NA",
+      "color": "Black",
+      "condition": "Rarely Worn",
+      "price": 549,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/bossini-black-halter-slip-dress-l"
+    },
+    {
+      "id": 5,
       "size": "L",
       "brand": "YUMI",
       "material": "Polyester + Cotton",
@@ -67,18 +56,18 @@
       "link": "https://www.ecodhaga.com/product-page/babydoll-black-dress-with-contrast-piping-and-bows-uk-14"
     },
     {
-      "id": 7,
-      "size": "L",
-      "brand": "Unknown",
+      "id": 6,
+      "size": "XL",
+      "brand": "STILO",
       "material": "Polyester",
-      "color": "Black",
+      "color": "Coral Pink",
       "condition": "Rarely Worn",
-      "price": 699,
+      "price": 649,
       "type": "top",
-      "link": "https://www.ecodhaga.com/product-page/black-long-shirt-blouse-with-pocket-belt-loop"
+      "link": "https://www.ecodhaga.com/product-page/fit-and-flare-velvet-feel-and-piping-detail-xl"
     },
     {
-      "id": 8,
+      "id": 7,
       "size": "XXL",
       "brand": "GAP",
       "material": "Wool",
@@ -89,29 +78,106 @@
       "link": "https://www.ecodhaga.com/product-page/gap-red-black-striped-dress-xxl"
     },
     {
+      "id": 8,
+      "size": "M",
+      "brand": "Naomi",
+      "material": "Polyester",
+      "color": "Emerald Green",
+      "condition": "Rarely Worn",
+      "price": 849,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/naomi-code-emerald-green-jumpsuit-m"
+    },
+    {
       "id": 9,
-      "size": "XL",
-      "brand": "Tailored",
-      "material": "Cotton",
-      "color": "Olive Green",
-      "condition": "Pre-Loved with Alteration Disclosure",
-      "price": 449,
-      "type": "bottom",
-      "link": "https://www.ecodhaga.com/product-page/tailored-olive-straight-cut-cotton-pants-xl"
+      "size": "S",
+      "brand": "FIG",
+      "material": "Cotton Blend",
+      "color": "Salmon Pink",
+      "condition": "Rarely Worn",
+      "price": 749,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/fig-salmon-pink-tailored-shirt-with-3-4th-sleeve-s"
     },
     {
       "id": 10,
-      "size": "L",
-      "brand": "VAN HEUSEN WOMAN",
-      "material": "Rayon",
-      "color": "Black",
-      "condition": "Pre-Loved",
-      "price": 899,
-      "type": "bottom",
-      "link": "https://www.ecodhaga.com/product-page/van-heusen-woman-formal-pants-with-stripes-l"
+      "size": "M",
+      "brand": "Zavanna",
+      "material": "Synthetic",
+      "color": "Royal Blue",
+      "condition": "Rarely Worn",
+      "price": 1299,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/zavanna-royal-blue-top-m"
     },
     {
       "id": 11,
+      "size": "M",
+      "brand": "Kukoon",
+      "material": "Synthetic",
+      "color": "White",
+      "condition": "Rarely Worn",
+      "price": 1399,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/kukoon-white-top-m"
+    },
+    {
+      "id": 12,
+      "size": "L",
+      "brand": "COTTON CLUB",
+      "material": "Cotton Blend",
+      "color": "White",
+      "condition": "Rarely Worn",
+      "price": 849,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/cotton-club-relaxed-boyfriend-white-shirt-40"
+    },
+    {
+      "id": 13,
+      "size": "L",
+      "brand": "Unknown",
+      "material": "Polyester",
+      "color": "Black",
+      "condition": "Rarely Worn",
+      "price": 699,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/black-long-shirt-blouse-with-pocket-belt-loop"
+    },
+    {
+      "id": 14,
+      "size": "XL",
+      "brand": "BOSSINI JEANS",
+      "material": "Cotton Denim",
+      "color": "Denim Blue",
+      "condition": "Brand New",
+      "price": 649,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/bossini-jeans-sleeveless-vest-top-in-denim-xl"
+    },
+    {
+      "id": 15,
+      "size": "XXL",
+      "brand": "FIG",
+      "material": "Viscose",
+      "color": "White",
+      "condition": "Pre-loved",
+      "price": 499,
+      "type": "top",
+      "link": "https://www.ecodhaga.com/product-page/fig-white-top-with-chokher-style-neckline-xxl"
+    },
+    {
+      "id": 16,
+      "size": "S",
+      "brand": "Bang Bang Jean",
+      "material": "Denim",
+      "color": "Black",
+      "condition": "Rarely Worn",
+      "price": 499,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/bang-bang-jeans-black-shorts-s"
+    },
+    {
+      "id": 17,
       "size": "M",
       "brand": "Code",
       "material": "Cotton",
@@ -122,7 +188,29 @@
       "link": "https://www.ecodhaga.com/product-page/code-burgundy-high-waist-belt-loop-bottom-m"
     },
     {
-      "id": 12,
+      "id": 18,
+      "size": "L",
+      "brand": "VAN HEUSEN WOMAN",
+      "material": "Rayon",
+      "color": "Black",
+      "condition": "Pre-Loved",
+      "price": 899,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/van-heusen-woman-formal-pants-with-stripes-l"
+    },
+    {
+      "id": 19,
+      "size": "XL",
+      "brand": "Tailored",
+      "material": "Cotton",
+      "color": "Olive Green",
+      "condition": "Pre-Loved with Alteration Disclosure",
+      "price": 449,
+      "type": "bottom",
+      "link": "https://www.ecodhaga.com/product-page/tailored-olive-straight-cut-cotton-pants-xl"
+    },
+    {
+      "id": 20,
       "size": "XXL",
       "brand": "Talbots",
       "material": "Denim",
@@ -131,17 +219,6 @@
       "price": 799,
       "type": "bottom",
       "link": "https://www.ecodhaga.com/product-page/talbots-grey-denim-full-straight-bottom-xxl"
-    },
-    {
-      "id": 13,
-      "size": "S",
-      "brand": "Bang Bang Jean",
-      "material": "Denim",
-      "color": "Black",
-      "condition": "Rarely Worn",
-      "price": 499,
-      "type": "bottom",
-      "link": "https://www.ecodhaga.com/product-page/bang-bang-jeans-black-shorts-s"
     }
   ]
 }

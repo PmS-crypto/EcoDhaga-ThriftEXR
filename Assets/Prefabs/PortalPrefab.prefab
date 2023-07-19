@@ -1,120 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &384997056290544131
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7002673787373827746}
-  - component: {fileID: 1004770188671348310}
-  - component: {fileID: 5972189961424779768}
-  m_Layer: 6
-  m_Name: Light1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7002673787373827746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384997056290544131}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.03946154, y: 0.013307688, z: -0.037317302}
-  m_LocalScale: {x: 0.009615383, y: 0.009615385, z: 0.009615384}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2926177499471334159}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1004770188671348310
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384997056290544131}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7
-  m_Range: 6.4
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &5972189961424779768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384997056290544131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &511779391632223467
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,12 +11,12 @@ GameObject:
   - component: {fileID: 8012352109176078209}
   - component: {fileID: 3490009572016771775}
   - component: {fileID: 8426103350964953685}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Mesh5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &8012352109176078209
 Transform:
@@ -176,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8374703015266106806, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -207,12 +92,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3147857975786770100}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Spawners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &3147857975786770100
 Transform:
@@ -241,12 +126,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5335372080640775148}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5335372080640775148
 Transform:
@@ -275,12 +160,13 @@ GameObject:
   - component: {fileID: 7711761850543413253}
   - component: {fileID: 2889610628738835305}
   - component: {fileID: 3714779015733110867}
+  - component: {fileID: -4903857982251114029}
   m_Layer: 0
   m_Name: PortalPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &7711761850543413253
 Transform:
@@ -291,13 +177,16 @@ Transform:
   m_GameObject: {fileID: 1699977988493517469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.12, y: 1.12, z: 1.12}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2350436052452863671}
   - {fileID: 5494651790259498836}
   - {fileID: 2926177499471334159}
-  - {fileID: 3604173670728711446}
+  - {fileID: 2662494568229750906}
+  - {fileID: 4933668803156236955}
+  - {fileID: 1066322703775115643}
+  - {fileID: 6386525361898719480}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -314,117 +203,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clothDataList:
-  - id: 1
-    size: XL
-    brand: Edc by Esprit
-    material: Viscose
-    color: Oxford Blue
-    condition: Rarely Worn
-    price: 699
-    type: top
-    link: https://www.ecodhaga.com/product-page/edc-by-espirt-oxford-blue-deep-v-neck-dress-xl
-    clothPrefab: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-  - id: 2
-    size: S
-    brand: Coast
-    material: Unknown
-    color: Unknown
-    condition: Unknown
-    price: 1299
-    type: top
-    link: https://www.ecodhaga.com/product-page/coast-pleated-v-neck-dress-with-shiny-appearance-s
-    clothPrefab: {fileID: 2606816821957272201, guid: 42a093339858a554ba8cabf867381b9c, type: 3}
-  - id: 3
-    size: XL
-    brand: STILO
-    material: Polyester
-    color: Coral Pink
-    condition: Rarely Worn
-    price: 649
-    type: top
-    link: https://www.ecodhaga.com/product-page/fit-and-flare-velvet-feel-and-piping-detail-xl
-    clothPrefab: {fileID: 2606816821957272201, guid: 6abb783de50daf940999f5b1e5f06b8e, type: 3}
-  - id: 4
-    size: S
-    brand: TopShop
-    material: Polyester
-    color: Parrot Green
-    condition: Rarely Worn
-    price: 999
-    type: top
-    link: https://www.ecodhaga.com/product-page/parrot-green-a-line-structured-dress-s
-    clothPrefab: {fileID: 2606816821957272201, guid: b69ed397715c6d242982345f6b05dc43, type: 3}
-  - id: 5
-    size: M
-    brand: Stalk Buy Love
-    material: Polyester
-    color: White with Black
-    condition: Rarely Worn
-    price: 549
-    type: top
-    link: https://www.ecodhaga.com/product-page/stalk-buy-love-white-black-colour-block-dress-m
-    clothPrefab: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-  - id: 6
-    size: L
-    brand: YUMI
-    material: Polyester + Cotton
-    color: Black with contrast piping
-    condition: Brand New
-    price: 1299
-    type: top
-    link: https://www.ecodhaga.com/product-page/babydoll-black-dress-with-contrast-piping-and-bows-uk-14
-    clothPrefab: {fileID: 2606816821957272201, guid: 42a093339858a554ba8cabf867381b9c, type: 3}
-  - id: 7
-    size: L
-    brand: Unknown
-    material: Polyester
-    color: Black
-    condition: Rarely Worn
-    price: 699
-    type: top
-    link: https://www.ecodhaga.com/product-page/black-long-shirt-blouse-with-pocket-belt-loop
-    clothPrefab: {fileID: 2606816821957272201, guid: 6abb783de50daf940999f5b1e5f06b8e, type: 3}
-  - id: 8
-    size: XXL
-    brand: GAP
-    material: Wool
-    color: Red with Navy Blue
-    condition: Rarely Worn
-    price: 999
-    type: top
-    link: https://www.ecodhaga.com/product-page/gap-red-black-striped-dress-xxl
-    clothPrefab: {fileID: 2606816821957272201, guid: b69ed397715c6d242982345f6b05dc43, type: 3}
-  - id: 9
-    size: XL
-    brand: Tailored
-    material: Cotton
-    color: Olive Green
-    condition: Pre-Loved with Alteration Disclosure
-    price: 449
-    type: bottom
-    link: https://www.ecodhaga.com/product-page/tailored-olive-straight-cut-cotton-pants-xl
-    clothPrefab: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
   - id: 10
-    size: L
-    brand: VAN HEUSEN WOMAN
-    material: Rayon
-    color: Black
-    condition: Pre-Loved
-    price: 899
-    type: bottom
-    link: https://www.ecodhaga.com/product-page/van-heusen-woman-formal-pants-with-stripes-l
-    clothPrefab: {fileID: 2606816821957272201, guid: 42a093339858a554ba8cabf867381b9c, type: 3}
+    size: M
+    brand: Zavanna
+    material: Synthetic
+    color: Royal Blue
+    condition: Rarely Worn
+    price: 1299
+    type: top
+    link: https://www.ecodhaga.com/product-page/zavanna-royal-blue-top-m
+    clothPrefab: {fileID: 4238274085067785641, guid: c8e69f0d78fa9ed42bc5b7c1509258a5, type: 3}
   - id: 11
     size: M
-    brand: Code
-    material: Cotton
-    color: Burgundy
+    brand: Kukoon
+    material: Synthetic
+    color: White
     condition: Rarely Worn
-    price: 749
-    type: bottom
-    link: https://www.ecodhaga.com/product-page/code-burgundy-high-waist-belt-loop-bottom-m
-    clothPrefab: {fileID: 2606816821957272201, guid: 6abb783de50daf940999f5b1e5f06b8e, type: 3}
-  - id: 12
+    price: 1399
+    type: top
+    link: https://www.ecodhaga.com/product-page/kukoon-white-top-m
+    clothPrefab: {fileID: -3460398995226583418, guid: 9f8b941f0b021b04984b2ce88cbd2e10, type: 3}
+  - id: 8
+    size: M
+    brand: Naomi
+    material: Polyester
+    color: Emerald Green
+    condition: Rarely Worn
+    price: 849
+    type: top
+    link: https://www.ecodhaga.com/product-page/naomi-code-emerald-green-jumpsuit-m
+    clothPrefab: {fileID: 2966150316078064566, guid: 5338001df66d85147927d60d4efe43e7, type: 3}
+  - id: 20
     size: XXL
     brand: Talbots
     material: Denim
@@ -433,8 +242,158 @@ MonoBehaviour:
     price: 799
     type: bottom
     link: https://www.ecodhaga.com/product-page/talbots-grey-denim-full-straight-bottom-xxl
-    clothPrefab: {fileID: 2606816821957272201, guid: b69ed397715c6d242982345f6b05dc43, type: 3}
+    clothPrefab: {fileID: 6460906160891459353, guid: e7c7512275bdf7c4597c743bdb558eaf, type: 3}
+  - id: 3
+    size: M
+    brand: Stalk Buy Love
+    material: Polyester
+    color: White with Black
+    condition: Rarely Worn
+    price: 549
+    type: top
+    link: https://www.ecodhaga.com/product-page/stalk-buy-love-white-black-colour-block-dress-m
+    clothPrefab: {fileID: 6910947866893201202, guid: 90b5f033600b6824a85a1e34ea565789, type: 3}
+  - id: 2
+    size: M
+    brand: The Vance
+    material: Polyester
+    color: Black and Off White
+    condition: Rarely Worn
+    price: 699
+    type: top
+    link: https://www.ecodhaga.com/product-page/the-vance-full-sleeve-dress-m
+    clothPrefab: {fileID: -6139640114325985317, guid: f212ed98d5b00734883763d3ac89fe25, type: 3}
+  - id: 5
+    size: L
+    brand: YUMI
+    material: Polyester + Cotton
+    color: Black with contrast piping
+    condition: Brand New
+    price: 1299
+    type: top
+    link: https://www.ecodhaga.com/product-page/babydoll-black-dress-with-contrast-piping-and-bows-uk-14
+    clothPrefab: {fileID: 2542692685232851238, guid: a6cf6ade32350234797542122680277f, type: 3}
+  - id: 9
+    size: S
+    brand: FIG
+    material: Cotton Blend
+    color: Salmon Pink
+    condition: Rarely Worn
+    price: 749
+    type: top
+    link: https://www.ecodhaga.com/product-page/fig-salmon-pink-tailored-shirt-with-3-4th-sleeve-s
+    clothPrefab: {fileID: -2623598396404090604, guid: e88881d2adebc664185618d717847d45, type: 3}
+  - id: 19
+    size: XL
+    brand: Tailored
+    material: Cotton
+    color: Olive Green
+    condition: Pre-Loved with Alteration Disclosure
+    price: 449
+    type: bottom
+    link: https://www.ecodhaga.com/product-page/tailored-olive-straight-cut-cotton-pants-xl
+    clothPrefab: {fileID: -3378512150579891725, guid: 07d534dedd3c91f45adf49ab407aa1b3, type: 3}
+  - id: 12
+    size: L
+    brand: COTTON CLUB
+    material: Cotton Blend
+    color: White
+    condition: Rarely Worn
+    price: 849
+    type: top
+    link: https://www.ecodhaga.com/product-page/cotton-club-relaxed-boyfriend-white-shirt-40
+    clothPrefab: {fileID: -405135196094045310, guid: 21f0db769941a794092bf60eb2e385b7, type: 3}
   - id: 13
+    size: L
+    brand: Unknown
+    material: Polyester
+    color: Black
+    condition: Rarely Worn
+    price: 699
+    type: top
+    link: https://www.ecodhaga.com/product-page/black-long-shirt-blouse-with-pocket-belt-loop
+    clothPrefab: {fileID: -3524881288452006770, guid: 500b011fb86162e47b489c538827e928, type: 3}
+  - id: 4
+    size: L
+    brand: Bossini
+    material: NA
+    color: Black
+    condition: Rarely Worn
+    price: 549
+    type: top
+    link: https://www.ecodhaga.com/product-page/bossini-black-halter-slip-dress-l
+    clothPrefab: {fileID: -8862570353177822895, guid: e8272b7e786c7a749afaaf5e16b96ba3, type: 3}
+  - id: 1
+    size: S
+    brand: TopShop
+    material: Polyester
+    color: Parrot Green
+    condition: Rarely Worn
+    price: 999
+    type: top
+    link: https://www.ecodhaga.com/product-page/parrot-green-a-line-structured-dress-s
+    clothPrefab: {fileID: -9190149895919157531, guid: 324eb65c58ee00b44b04bc7f0b11533d, type: 3}
+  - id: 6
+    size: XL
+    brand: STILO
+    material: Polyester
+    color: Coral Pink
+    condition: Rarely Worn
+    price: 649
+    type: top
+    link: https://www.ecodhaga.com/product-page/fit-and-flare-velvet-feel-and-piping-detail-xl
+    clothPrefab: {fileID: -6803869852382107730, guid: 45d51161adb4aa249884a79e57de1ef7, type: 3}
+  - id: 14
+    size: XL
+    brand: BOSSINI JEANS
+    material: Cotton Denim
+    color: Denim Blue
+    condition: Brand New
+    price: 649
+    type: top
+    link: https://www.ecodhaga.com/product-page/bossini-jeans-sleeveless-vest-top-in-denim-xl
+    clothPrefab: {fileID: -5992780168282422657, guid: 2460056d164a8544887458fa9ab054d3, type: 3}
+  - id: 18
+    size: L
+    brand: VAN HEUSEN WOMAN
+    material: Rayon
+    color: Black
+    condition: Pre-Loved
+    price: 899
+    type: bottom
+    link: https://www.ecodhaga.com/product-page/van-heusen-woman-formal-pants-with-stripes-l
+    clothPrefab: {fileID: 4197254427724995611, guid: 3c85d8bb092b3b542aacc41ecc9dae3f, type: 3}
+  - id: 7
+    size: XXL
+    brand: GAP
+    material: Wool
+    color: Red with Navy Blue
+    condition: Rarely Worn
+    price: 999
+    type: top
+    link: https://www.ecodhaga.com/product-page/gap-red-black-striped-dress-xxl
+    clothPrefab: {fileID: -8341184909504312680, guid: 78bd5b2feded8da468ff8a932097c852, type: 3}
+  - id: 15
+    size: XXL
+    brand: FIG
+    material: Viscose
+    color: White
+    condition: Pre-loved
+    price: 499
+    type: top
+    link: https://www.ecodhaga.com/product-page/fig-white-top-with-chokher-style-neckline-xxl
+    clothPrefab: {fileID: 2253142847683821384, guid: b689f9a7839ab0445a6ff4f6fb1690e8, type: 3}
+  - id: 17
+    size: M
+    brand: Code
+    material: Cotton
+    color: Burgundy
+    condition: Rarely Worn
+    price: 749
+    type: bottom
+    link: https://www.ecodhaga.com/product-page/code-burgundy-high-waist-belt-loop-bottom-m
+    clothPrefab: {fileID: 3391956418986890229, guid: 1adab4c08fa09d14b956ab5bb40da15d, type: 3}
+  - id: 16
     size: S
     brand: Bang Bang Jean
     material: Denim
@@ -443,7 +402,7 @@ MonoBehaviour:
     price: 499
     type: bottom
     link: https://www.ecodhaga.com/product-page/bang-bang-jeans-black-shorts-s
-    clothPrefab: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
+    clothPrefab: {fileID: -1810439858642783709, guid: 2d4efba2672811b4992f5b1d442dfc66, type: 3}
   spawnerPositions:
   - {fileID: 4901073642549303672}
   - {fileID: 231869423596783106}
@@ -464,11 +423,35 @@ MonoBehaviour:
   populate: 0
   spawnclothes: 0
   jsonFilePath: Assets/Scripts/clothList.json
-  spawns:
-  - {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-  - {fileID: 2606816821957272201, guid: 42a093339858a554ba8cabf867381b9c, type: 3}
-  - {fileID: 2606816821957272201, guid: 6abb783de50daf940999f5b1e5f06b8e, type: 3}
-  - {fileID: 2606816821957272201, guid: b69ed397715c6d242982345f6b05dc43, type: 3}
+  spawns: []
+--- !u!114 &-4903857982251114029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699977988493517469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d8452b07e6d214aa5f8ddb2d1eb946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lights:
+  - light: {fileID: 3486155212271911486}
+    lightmapBaketype: 1
+    mixedLightingMode: 0
+  - light: {fileID: 5791873155372426173}
+    lightmapBaketype: 1
+    mixedLightingMode: 0
+  - light: {fileID: 1985760380244601034}
+    lightmapBaketype: 1
+    mixedLightingMode: 0
+  renderers: []
+  renderersLightmapIndex: 
+  renderersLightmapOffsetScale: []
+  texturesColor: []
+  texturesDir: []
+  texturesShadow: []
 --- !u!1 &2325948102646632549
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,12 +461,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2154556518201028893}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &2154556518201028893
 Transform:
@@ -512,12 +495,12 @@ GameObject:
   - component: {fileID: 5327887461886432764}
   - component: {fileID: 6276925380408210616}
   - component: {fileID: 8612671061964158904}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Roof_Beading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5327887461886432764
 Transform:
@@ -562,7 +545,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8374703015266106806, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -593,12 +576,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2926177499471334159}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &2926177499471334159
 Transform:
@@ -617,10 +600,6 @@ Transform:
   - {fileID: 3731644075295678301}
   - {fileID: 3991592921248216726}
   - {fileID: 5327887461886432764}
-  - {fileID: 7002673787373827746}
-  - {fileID: 7449129932627114585}
-  - {fileID: 488890815546348755}
-  - {fileID: 2358731431022095233}
   m_Father: {fileID: 7711761850543413253}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -635,12 +614,12 @@ GameObject:
   - component: {fileID: 1466268624639146288}
   - component: {fileID: 8053287390245811982}
   - component: {fileID: 3800283342274767390}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Beadings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &1466268624639146288
 Transform:
@@ -685,7 +664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8374703015266106806, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -723,7 +702,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &2350436052452863671
 Transform:
@@ -809,7 +788,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5494651790259498836
 Transform:
@@ -911,12 +890,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5262525520569779957}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5262525520569779957
 Transform:
@@ -951,7 +930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &1651913037912472117
 Transform:
@@ -1043,12 +1022,12 @@ GameObject:
   - component: {fileID: 3480400789076157978}
   - component: {fileID: 4695282133276142891}
   - component: {fileID: 1431378587099031511}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Mesh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &3480400789076157978
 Transform:
@@ -1093,7 +1072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8374703015266106806, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1115,7 +1094,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4420555215971935407
+--- !u!1 &5353975077909282615
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1123,50 +1102,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7449129932627114585}
-  - component: {fileID: 2695847190600629794}
-  - component: {fileID: 8538628740563485757}
-  m_Layer: 6
-  m_Name: Light2 (1)
+  - component: {fileID: 6386525361898719480}
+  - component: {fileID: 1985760380244601034}
+  - component: {fileID: 3027509316882774750}
+  m_Layer: 0
+  m_Name: Area Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7449129932627114585
+--- !u!4 &6386525361898719480
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420555215971935407}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.036326922, y: 0.013307688, z: -0.011442304}
-  m_LocalScale: {x: 0.009615383, y: 0.009615385, z: 0.009615384}
+  m_GameObject: {fileID: 5353975077909282615}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 2.568, z: 2.347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2926177499471334159}
+  m_Father: {fileID: 7711761850543413253}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &2695847190600629794
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!108 &1985760380244601034
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420555215971935407}
+  m_GameObject: {fileID: 5353975077909282615}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 2
+  m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1199,24 +1178,24 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_AreaSize: {x: 5, y: 5}
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.05e-43, y: 1.0596762e-38, z: 1.0691825e-38, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &8538628740563485757
+--- !u!114 &3027509316882774750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420555215971935407}
+  m_GameObject: {fileID: 5353975077909282615}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
@@ -1241,12 +1220,12 @@ GameObject:
   - component: {fileID: 5637401327165225603}
   - component: {fileID: 6621682934107497415}
   - component: {fileID: 527110795044480762}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: b3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5637401327165225603
 Transform:
@@ -1291,7 +1270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6632562094004866335, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   - {fileID: -90445598095639297, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   - {fileID: 8372255255365473073, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   m_StaticBatchInfo:
@@ -1315,121 +1294,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5642922913292835168
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2358731431022095233}
-  - component: {fileID: 8782431555314663666}
-  - component: {fileID: 2440881267573581261}
-  m_Layer: 6
-  m_Name: Light4 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2358731431022095233
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5642922913292835168}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.013961539, y: 0.013307694, z: -0.01224038}
-  m_LocalScale: {x: 0.009615383, y: 0.009615385, z: 0.009615384}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2926177499471334159}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &8782431555314663666
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5642922913292835168}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.63
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &2440881267573581261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5642922913292835168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &6284476105674136883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,12 +1305,12 @@ GameObject:
   - component: {fileID: 4901073642549303672}
   - component: {fileID: 2824704876342565540}
   - component: {fileID: 4414518084658336110}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: b2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &4901073642549303672
 Transform:
@@ -1491,7 +1355,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6632562094004866335, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   - {fileID: -90445598095639297, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   - {fileID: 8372255255365473073, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   m_StaticBatchInfo:
@@ -1524,12 +1388,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3731644075295678301}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Decor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &3731644075295678301
 Transform:
@@ -1549,6 +1413,121 @@ Transform:
   m_Father: {fileID: 2926177499471334159}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7689668907919433397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933668803156236955}
+  - component: {fileID: 5791873155372426173}
+  - component: {fileID: 4709076002484894750}
+  m_Layer: 0
+  m_Name: Area Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933668803156236955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689668907919433397}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 1.19, z: 4.475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7711761850543413253}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!108 &5791873155372426173
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689668907919433397}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 3
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 5, y: 2}
+  m_BounceIntensity: 2
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 1.05e-43, y: 2.6562857e+20, z: 1.0691825e-38, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &4709076002484894750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689668907919433397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &8036641992490375919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,12 +1539,12 @@ GameObject:
   - component: {fileID: 5300928779948168625}
   - component: {fileID: 8478646078466169697}
   - component: {fileID: 1662890806122674374}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Mesh4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &5300928779948168625
 Transform:
@@ -1610,7 +1589,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8374703015266106806, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1643,12 +1622,12 @@ GameObject:
   - component: {fileID: 231869423596783106}
   - component: {fileID: 5614411501269405175}
   - component: {fileID: 2973560082006017583}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: b1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &231869423596783106
 Transform:
@@ -1693,7 +1672,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6632562094004866335, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 44aa8a47a9ec14d59b954588db93175f, type: 2}
   - {fileID: -90445598095639297, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   - {fileID: 8372255255365473073, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   m_StaticBatchInfo:
@@ -1717,6 +1696,186 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8514952081277534891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1066322703775115643}
+  - component: {fileID: 6451746486814713023}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 123
+  m_IsActive: 1
+--- !u!4 &1066322703775115643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514952081277534891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.45, z: 2.42}
+  m_LocalScale: {x: 0.8928572, y: 0.8928572, z: 0.8928572}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7711761850543413253}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!215 &6451746486814713023
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8514952081277534891}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 512
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 6, y: 4, z: 6}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1.6
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 1
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &8622574545384186162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2662494568229750906}
+  - component: {fileID: 3486155212271911486}
+  - component: {fileID: 5706903319564845521}
+  m_Layer: 0
+  m_Name: Area Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2662494568229750906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622574545384186162}
+  m_LocalRotation: {x: 0.00000004470348, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.19, z: 0.197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7711761850543413253}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &3486155212271911486
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622574545384186162}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 3
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 5, y: 2}
+  m_BounceIntensity: 2
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 1.1e-44, z: 0, w: -2.6873592e-35}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &5706903319564845521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622574545384186162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &8801887654844997919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,12 +1887,12 @@ GameObject:
   - component: {fileID: 3991592921248216726}
   - component: {fileID: 8160140763593184876}
   - component: {fileID: 915223383925702782}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 123
   m_IsActive: 1
 --- !u!4 &3991592921248216726
 Transform:
@@ -1780,10 +1939,10 @@ MeshRenderer:
   m_Materials:
   - {fileID: -4249511001905144569, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   - {fileID: 2100000, guid: b0ad1fb74f2f04e94bbfc776ed912a81, type: 2}
-  - {fileID: -8638267395423111487, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 5d5009ea3973f914c91c00f56797ccae, type: 2}
   - {fileID: 8294684425909292926, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
-  - {fileID: 6003188424907921970, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
-  - {fileID: 6919961277746374448, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
+  - {fileID: 2100000, guid: 5d5009ea3973f914c91c00f56797ccae, type: 2}
+  - {fileID: 2100000, guid: 5d5009ea3973f914c91c00f56797ccae, type: 2}
   - {fileID: 8457432598939410078, guid: 4d1f6f9f8e87f1246b4ff13d52024e11, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -1806,257 +1965,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9164781484754040029
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 488890815546348755}
-  - component: {fileID: 4861858783635714019}
-  - component: {fileID: 3687847848640263534}
-  m_Layer: 6
-  m_Name: Light3 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &488890815546348755
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9164781484754040029}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.009884617, y: 0.013307694, z: -0.03557692}
-  m_LocalScale: {x: 0.009615383, y: 0.009615385, z: 0.009615384}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2926177499471334159}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &4861858783635714019
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9164781484754040029}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7
-  m_Range: 6.4
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &3687847848640263534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9164781484754040029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
---- !u!1001 &4872902862141077709
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 7711761850543413253}
-    m_Modifications:
-    - target: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_Name
-      value: p1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.509
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
---- !u!4 &3604173670728711446 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8188845455816164827, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-  m_PrefabInstance: {fileID: 4872902862141077709}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7461691915010939460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2606816821957272201, guid: 7909253e8a036b44e83fd03a5b1b747e, type: 3}
-  m_PrefabInstance: {fileID: 4872902862141077709}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &108760532739039161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7461691915010939460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 42225e6c89a9a47cba0f4f59742641be, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2

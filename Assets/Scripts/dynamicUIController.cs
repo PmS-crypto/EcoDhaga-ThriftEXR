@@ -7,6 +7,8 @@ public class dynamicUIController : MonoBehaviour
 {
     // public List<dynamicUIModel> UIPanels;
 
+    public ClothData currCloth = new ClothData { id= -1 };
+
     [SerializeField]
     public Text sizeText = null;
     [SerializeField]
@@ -35,16 +37,22 @@ public class dynamicUIController : MonoBehaviour
     void Update()
     {
         //demo
-        sizeText.text = sizeTextMessage + "heal";
-        brandText.text = brandTextMessage + "heal";
-        materialText.text = materialTextMessage + "heal";
-        colorText.text = colorTextMessage + "heal";
-        conditionText.text = conditionTextMessage + "heal";
+        if (currCloth.id == -1) return;
+        sizeText.text = currCloth.size;
+        brandText.text = currCloth.brand;
+        materialText.text = currCloth.material;
+        colorText.text = currCloth.color;
+        conditionText.text = currCloth.condition;
+    }
+
+    public void ChangeCloth(ClothData newCloth) 
+    {
+        currCloth = newCloth;
     }
 
     public void BuyNow()
     {
-        Application.OpenURL("https://www.ecodhaga.com");
+        Application.OpenURL(currCloth.link);
     }
 
     public void enableUI()
