@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21f0db769941a794092bf60eb2e385b7
+guid: 79fc8384d98993b4ebaeff5fd28a60d6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -21,7 +21,7 @@ ScriptedImporter:
       interpolationMode: -1
       compressBlendShapeKeyFrames: 1
       useLegacyClips: 0
-    generateLightmapUVs: 0
+    generateLightmapUVs: 1
     hardAngle: 88
     angleError: 8
     areaError: 15

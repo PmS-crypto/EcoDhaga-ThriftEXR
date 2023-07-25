@@ -6,22 +6,33 @@ public class MaskRoom : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject roomContext;
+    [SerializeField] List<GameObject> objectsToHide;
+
+    private void Awake()
+    {
+        foreach (GameObject obj in objectsToHide)
+        {
+            obj.SetActive(false);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(true)
+        Debug.Log("enter");
+        SetLayerAllChildren(roomContext.transform, LayerMask.NameToLayer("Default"));
+        foreach(GameObject obj in objectsToHide)
         {
-            Debug.Log("enter");
-            SetLayerAllChildren(roomContext.transform, LayerMask.NameToLayer("Default"));
+            obj.SetActive(true);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (true)
+        Debug.Log("exit");
+        SetLayerAllChildren(roomContext.transform, LayerMask.NameToLayer("InsidePortal"));
+        foreach (GameObject obj in objectsToHide)
         {
-            Debug.Log("exit");
-            SetLayerAllChildren(roomContext.transform, LayerMask.NameToLayer("InsidePortal"));
+            obj.SetActive(false);
         }
     }
 

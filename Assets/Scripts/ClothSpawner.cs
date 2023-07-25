@@ -25,8 +25,8 @@ public class ClothSpawner : MonoBehaviour
 
     [SerializeField] public List<ClothData> clothDataList;
     [SerializeField] private List<Transform> spawnerPositions;
+    [SerializeField] private List<dynamicUIController> canvasElements;
 
-    public ClothData activeProduct = new ClothData { id = -1 };
 
     [SerializeField] private float rotationSpeed = 15f;
     private List<GameObject> instantiatedClothes = new List<GameObject>();
@@ -37,8 +37,6 @@ public class ClothSpawner : MonoBehaviour
     private string bottomSize;
     private string topSize;
 
-    private GameObject XROrigin;
-    private dynamicUIController uIController;
 
     private Dictionary<string, int> sizeLookup = new Dictionary<string, int>(){
         {"S", 0},
@@ -50,47 +48,16 @@ public class ClothSpawner : MonoBehaviour
 
     private void Start()
     {
-        XROrigin = GameObject.Find("XR Origin");
-        uIController = XROrigin.GetComponent<dynamicUIController>();
         InitClothSpawn();
 
     }
 
 
-    private void FindClosestSpawner()
-    {
-        float maxDotProduct = -1f;
-        Transform cameraTransform = Camera.main.transform;
-        Vector3 cameraViewDirection = cameraTransform.forward;
-
-        foreach (Transform spawner in spawnerPositions)
-        {
-            Transform childObject = spawner.GetChild(0);
-            Vector3 spawnerToCamera = cameraTransform.position - childObject.position;
-
-            // Normalize the vectors and calculate the dot product
-            spawnerToCamera.Normalize();
-            cameraViewDirection.Normalize();
-            float dotProduct = Vector3.Dot(spawnerToCamera, cameraViewDirection);
-
-            if (dotProduct > maxDotProduct)
-            {
-                maxDotProduct = dotProduct;
-                activeProduct = getClothData(childObject.name);
-            }
-        }
-
-        if(activeProduct.id != -1 && activeProduct.id != uIController.currCloth.id)
-        {
-            uIController.ChangeCloth(activeProduct);
-        }
-    }
-
-    private ClothData getClothData(string id)
+    private ClothData getClothData(int id)
     {
         foreach(ClothData k in clothDataList)
         {
-            if(k.id.ToString() == id)
+            if(k.id == id)
             {
                 return k;
             }
@@ -115,10 +82,6 @@ public class ClothSpawner : MonoBehaviour
         clothDataList.Sort((a, b) =>GetScore(a) - GetScore(b));
         currCloth = 1;
         SetClothesOnSpawners();
-        //for(int i = 0; i < clothDataList.Count; i++)
-        //{
-        //    Debug.Log(clothDataList[i].size + " " + clothDataList[i].brand);    
-        //}
     }
 
     public void SpawnNextCloth()
@@ -142,7 +105,6 @@ public class ClothSpawner : MonoBehaviour
     private void Update()
     {
         RotateSpawners();
-        FindClosestSpawner();
     }
 
     private void RotateSpawners()
@@ -177,6 +139,7 @@ public class ClothSpawner : MonoBehaviour
             {
                 GameObject clothPrefab = clothDictionary[clothID];
                 Transform spawner = spawnerPositions[i];
+                canvasElements[i].ChangeCloth(getClothData(clothID));
                 GameObject instantiatedCloth = Instantiate(clothPrefab, spawner.position, Quaternion.Euler(0,180,0));
                 instantiatedCloth.transform.parent = spawner;
                 instantiatedCloth.transform.localPosition = new Vector3(0,0,0.0049f);
