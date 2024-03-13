@@ -3,6 +3,7 @@ An AR application using Unity where users can download our app, enter and scan t
 
 This application is built by EcoDhaga fellows as part of the XROS fellowship at EcoDhaga.
 The application is built using Unity.
+Here is the detailed report - https://drive.google.com/file/d/1-an0KezKm0VI6GADM_wD1WRqBSJOrBKX/view
 
 Here are few preview screenshots of the app's AR environment - 
 
